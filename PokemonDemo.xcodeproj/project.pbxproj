@@ -13,7 +13,6 @@
 		FBC81FB02B16EF9A00DF79FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC81FAE2B16EF9A00DF79FC /* Main.storyboard */; };
 		FBC81FB22B16EF9B00DF79FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBC81FB12B16EF9B00DF79FC /* Assets.xcassets */; };
 		FBC81FB52B16EF9B00DF79FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBC81FB32B16EF9B00DF79FC /* LaunchScreen.storyboard */; };
-		FBC81FBD2B16F2D000DF79FC /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBC81FBC2B16F2D000DF79FC /* ModelController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		FBC81FB12B16EF9B00DF79FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBC81FB42B16EF9B00DF79FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBC81FB62B16EF9B00DF79FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FBC81FBC2B16F2D000DF79FC /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +59,6 @@
 				FBC81FA82B16EF9A00DF79FC /* AppDelegate.swift */,
 				FBC81FAA2B16EF9A00DF79FC /* SceneDelegate.swift */,
 				FBC81FAC2B16EF9A00DF79FC /* ViewController.swift */,
-				FBC81FBC2B16F2D000DF79FC /* ModelController.swift */,
 				FBC81FAE2B16EF9A00DF79FC /* Main.storyboard */,
 				FBC81FB12B16EF9B00DF79FC /* Assets.xcassets */,
 				FBC81FB32B16EF9B00DF79FC /* LaunchScreen.storyboard */,
@@ -142,7 +139,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBC81FAD2B16EF9A00DF79FC /* ViewController.swift in Sources */,
-				FBC81FBD2B16F2D000DF79FC /* ModelController.swift in Sources */,
 				FBC81FA92B16EF9A00DF79FC /* AppDelegate.swift in Sources */,
 				FBC81FAB2B16EF9A00DF79FC /* SceneDelegate.swift in Sources */,
 			);
