@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FBC81FA52B16EF9A00DF79FC /* PokemonTestingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonTestingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBC81FA52B16EF9A00DF79FC /* PokemonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBC81FA82B16EF9A00DF79FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBC81FAA2B16EF9A00DF79FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FBC81FAC2B16EF9A00DF79FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		FBC81F9C2B16EF9A00DF79FC = {
 			isa = PBXGroup;
 			children = (
-				FBC81FA72B16EF9A00DF79FC /* PokemonTestingDemo */,
+				FBC81FA72B16EF9A00DF79FC /* PokemonDemo */,
 				FBC81FA62B16EF9A00DF79FC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		FBC81FA62B16EF9A00DF79FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FBC81FA52B16EF9A00DF79FC /* PokemonTestingDemo.app */,
+				FBC81FA52B16EF9A00DF79FC /* PokemonDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FBC81FA72B16EF9A00DF79FC /* PokemonTestingDemo */ = {
+		FBC81FA72B16EF9A00DF79FC /* PokemonDemo */ = {
 			isa = PBXGroup;
 			children = (
 				FBC81FA82B16EF9A00DF79FC /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				FBC81FB32B16EF9B00DF79FC /* LaunchScreen.storyboard */,
 				FBC81FB62B16EF9B00DF79FC /* Info.plist */,
 			);
-			path = PokemonTestingDemo;
+			path = PokemonDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FBC81FA42B16EF9A00DF79FC /* PokemonTestingDemo */ = {
+		FBC81FA42B16EF9A00DF79FC /* PokemonDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FBC81FB92B16EF9B00DF79FC /* Build configuration list for PBXNativeTarget "PokemonTestingDemo" */;
+			buildConfigurationList = FBC81FB92B16EF9B00DF79FC /* Build configuration list for PBXNativeTarget "PokemonDemo" */;
 			buildPhases = (
 				FBC81FA12B16EF9A00DF79FC /* Sources */,
 				FBC81FA22B16EF9A00DF79FC /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = PokemonTestingDemo;
+			name = PokemonDemo;
 			productName = PokemonTestingDemo;
-			productReference = FBC81FA52B16EF9A00DF79FC /* PokemonTestingDemo.app */;
+			productReference = FBC81FA52B16EF9A00DF79FC /* PokemonDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FBC81FA02B16EF9A00DF79FC /* Build configuration list for PBXProject "PokemonTestingDemo" */;
+			buildConfigurationList = FBC81FA02B16EF9A00DF79FC /* Build configuration list for PBXProject "PokemonDemo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FBC81FA42B16EF9A00DF79FC /* PokemonTestingDemo */,
+				FBC81FA42B16EF9A00DF79FC /* PokemonDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -298,18 +298,20 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DZBZX9Z7XW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PokemonTestingDemo/Info.plist;
+				INFOPLIST_FILE = PokemonDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PokemonDemo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ryanplitt.PokemonTestingDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanplitt.PokemonDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -326,18 +328,20 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DZBZX9Z7XW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PokemonTestingDemo/Info.plist;
+				INFOPLIST_FILE = PokemonDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PokemonDemo;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ryanplitt.PokemonTestingDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryanplitt.PokemonDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -348,7 +352,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FBC81FA02B16EF9A00DF79FC /* Build configuration list for PBXProject "PokemonTestingDemo" */ = {
+		FBC81FA02B16EF9A00DF79FC /* Build configuration list for PBXProject "PokemonDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBC81FB72B16EF9B00DF79FC /* Debug */,
@@ -357,7 +361,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FBC81FB92B16EF9B00DF79FC /* Build configuration list for PBXNativeTarget "PokemonTestingDemo" */ = {
+		FBC81FB92B16EF9B00DF79FC /* Build configuration list for PBXNativeTarget "PokemonDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FBC81FBA2B16EF9B00DF79FC /* Debug */,

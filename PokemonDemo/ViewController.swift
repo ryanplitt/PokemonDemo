@@ -28,7 +28,15 @@ class ViewController: UIViewController, UITextFieldDelegate {
         pokemonLabel.text = ""
         pokemonImageView.image = nil
         activityIndicator.startAnimating()
-        // Do the work to fetch pokemon here
+        Task {
+            let modelController = ModelController()
+            let pokemon = await modelController.fetchPokemon(number: id)
+            pokemonLabel.text = pokemon?.name.capitalized
+            let (data, _) = try! await URLSession.shared.data(from: URL(string: pokemon!.imageURL)!)
+            let image = UIImage(data: data)
+            activityIndicator.stopAnimating()
+            pokemonImageView.image = image
+        }
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
